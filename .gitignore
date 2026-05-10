@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# APK Sandbox
+samples/
+reports/
+/tmp/sandbox/
+*.apk
+*.dex
+smali/
