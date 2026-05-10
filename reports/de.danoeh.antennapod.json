@@ -1,0 +1,178 @@
+{
+  "apk_path": "samples/antennapod.apk",
+  "package_name": "de.danoeh.antennapod",
+  "static": {
+    "apk_path": "samples/antennapod.apk",
+    "package_name": "de.danoeh.antennapod",
+    "min_sdk": 21,
+    "target_sdk": "35",
+    "debuggable": false,
+    "allow_backup": true,
+    "permissions": [
+      {
+        "name": "android.permission.INTERNET",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.WAKE_LOCK",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.ACCESS_NETWORK_STATE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.FOREGROUND_SERVICE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.POST_NOTIFICATIONS",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.ACCESS_WIFI_STATE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+        "dangerous": true,
+        "score": 8
+      },
+      {
+        "name": "android.permission.BLUETOOTH",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.VIBRATE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "de.danoeh.antennapod.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "dangerous": false,
+        "score": 0
+      }
+    ],
+    "exported_components": [
+      {
+        "name": "de.danoeh.antennapod.activity.SplashActivity",
+        "component_type": "activity",
+        "has_permission": false,
+        "score": 5
+      },
+      {
+        "name": "de.danoeh.antennapod.activity.MainActivity",
+        "component_type": "activity",
+        "has_permission": false,
+        "score": 5
+      },
+      {
+        "name": "de.danoeh.antennapod.activity.OpmlImportActivity",
+        "component_type": "activity",
+        "has_permission": false,
+        "score": 5
+      },
+      {
+        "name": "de.danoeh.antennapod.ui.screen.onlinefeedview.OnlineFeedViewActivity",
+        "component_type": "activity",
+        "has_permission": false,
+        "score": 5
+      },
+      {
+        "name": "de.danoeh.antennapod.activity.SelectSubscriptionActivity",
+        "component_type": "activity",
+        "has_permission": false,
+        "score": 5
+      },
+      {
+        "name": "de.danoeh.antennapod.ui.widget.WidgetConfigActivity",
+        "component_type": "activity",
+        "has_permission": false,
+        "score": 5
+      },
+      {
+        "name": "de.danoeh.antennapod.playback.service.PlaybackService",
+        "component_type": "service",
+        "has_permission": false,
+        "score": 12
+      },
+      {
+        "name": "de.danoeh.antennapod.playback.service.QuickSettingsTileService",
+        "component_type": "service",
+        "has_permission": true,
+        "score": 0
+      },
+      {
+        "name": "de.danoeh.antennapod.net.download.service.feed.FeedUpdateReceiver",
+        "component_type": "receiver",
+        "has_permission": false,
+        "score": 8
+      },
+      {
+        "name": "de.danoeh.antennapod.net.download.service.ConnectivityActionReceiver",
+        "component_type": "receiver",
+        "has_permission": false,
+        "score": 8
+      },
+      {
+        "name": "de.danoeh.antennapod.net.download.service.PowerConnectionReceiver",
+        "component_type": "receiver",
+        "has_permission": false,
+        "score": 8
+      },
+      {
+        "name": "de.danoeh.antennapod.playback.service.MediaButtonReceiver",
+        "component_type": "receiver",
+        "has_permission": false,
+        "score": 8
+      },
+      {
+        "name": "de.danoeh.antennapod.ui.widget.PlayerWidget",
+        "component_type": "receiver",
+        "has_permission": false,
+        "score": 8
+      }
+    ],
+    "suspicious_strings": [],
+    "native_libraries": [
+      {
+        "name": "libconscrypt_jni.so",
+        "architecture": "x86"
+      },
+      {
+        "name": "libconscrypt_jni.so",
+        "architecture": "x86_64"
+      },
+      {
+        "name": "libconscrypt_jni.so",
+        "architecture": "armeabi-v7a"
+      },
+      {
+        "name": "libconscrypt_jni.so",
+        "architecture": "arm64-v8a"
+      }
+    ],
+    "static_score": 33,
+    "findings_summary": [
+      "[WARN] ADB backup enabled (allowBackup=true)",
+      "[HIGH] 1 dangerous permission(s) declared",
+      "[HIGH] 12 exported component(s) with no permission",
+      "[INFO] 4 native library/libraries present"
+    ]
+  },
+  "dynamic": null,
+  "total_score": 33,
+  "verdict": "SUSPICIOUS"
+}

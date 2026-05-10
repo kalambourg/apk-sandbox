@@ -219,7 +219,6 @@ __marimo__/
 
 # APK Sandbox
 samples/
-reports/
 /tmp/sandbox/
 *.apk
 *.dex

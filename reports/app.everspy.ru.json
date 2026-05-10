@@ -1,0 +1,821 @@
+{
+  "apk_path": "samples/spynote.apk",
+  "package_name": "app.everspy.ru",
+  "static": {
+    "apk_path": "samples/spynote.apk",
+    "package_name": "app.everspy.ru",
+    "min_sdk": 19,
+    "target_sdk": "28",
+    "debuggable": false,
+    "allow_backup": true,
+    "permissions": [
+      {
+        "name": "android.permission.FOREGROUND_SERVICE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.READ_SMS",
+        "dangerous": true,
+        "score": 15
+      },
+      {
+        "name": "android.permission.READ_CALL_LOG",
+        "dangerous": true,
+        "score": 12
+      },
+      {
+        "name": "android.permission.READ_CONTACTS",
+        "dangerous": true,
+        "score": 10
+      },
+      {
+        "name": "android.permission.READ_EXTERNAL_STORAGE",
+        "dangerous": true,
+        "score": 5
+      },
+      {
+        "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+        "dangerous": true,
+        "score": 5
+      },
+      {
+        "name": "android.permission.GET_ACCOUNTS",
+        "dangerous": true,
+        "score": 8
+      },
+      {
+        "name": "android.permission.RECEIVE_BOOT_COMPLETED",
+        "dangerous": true,
+        "score": 8
+      },
+      {
+        "name": "android.permission.CAMERA",
+        "dangerous": true,
+        "score": 8
+      },
+      {
+        "name": "android.permission.INTERNET",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.SYSTEM_ALERT_WINDOW",
+        "dangerous": true,
+        "score": 10
+      },
+      {
+        "name": "android.permission.RECORD_AUDIO",
+        "dangerous": true,
+        "score": 10
+      },
+      {
+        "name": "android.permission.ACCESS_COARSE_LOCATION",
+        "dangerous": true,
+        "score": 8
+      },
+      {
+        "name": "android.permission.ACCESS_FINE_LOCATION",
+        "dangerous": true,
+        "score": 8
+      },
+      {
+        "name": "android.permission.READ_PHONE_STATE",
+        "dangerous": true,
+        "score": 12
+      },
+      {
+        "name": "android.permission.WAKE_LOCK",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "com.android.alarm.permission.SET_ALARM",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.ACCESS_NETWORK_STATE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.ACCESS_WIFI_STATE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.CHANGE_WIFI_STATE",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.REQUEST_INSTALL_PACKAGES",
+        "dangerous": true,
+        "score": 15
+      },
+      {
+        "name": "android.permission.CALL_PHONE",
+        "dangerous": true,
+        "score": 12
+      },
+      {
+        "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.SET_WALLPAPER",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "com.android.launcher.permission.UNINSTALL_SHORTCUT",
+        "dangerous": false,
+        "score": 0
+      },
+      {
+        "name": "android.permission.SEND_SMS",
+        "dangerous": true,
+        "score": 15
+      }
+    ],
+    "exported_components": [
+      {
+        "name": "app.everspy.serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32",
+        "component_type": "service",
+        "has_permission": true,
+        "score": 0
+      },
+      {
+        "name": "app.everspy.serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi3",
+        "component_type": "receiver",
+        "has_permission": false,
+        "score": 8
+      },
+      {
+        "name": "app.everspy.RC",
+        "component_type": "receiver",
+        "has_permission": false,
+        "score": 8
+      }
+    ],
+    "suspicious_strings": [
+      {
+        "value": "Lapp/everspy/skillsqrssfsignificancefindigenouszlargerzrestorationodougsapplicationsbphenterminewstarringq16",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/skillsqrssfsignificancefindigenouszlargerzrestorationodougsapplicationsbphenterminewstarringq16$MyWebViewClient.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "htquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "quoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconcen...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "facequoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygco...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "com/loginquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdco...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "recquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygcon...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/hiredybroughtyassumesnpearltfrenchgenglandznovembermobligationveaglezarabicdsurvivorsswellh5",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/saladiedmontonmsichnycfconcerningqsynopsisyuscdamateurvbasketsqinteractivefdevelopersdresultingd4",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi31",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi31",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "comquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygcon...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "unexpecquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "occuquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygco...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "Facequoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygco...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/reasoninggtuttreatygprotwgenresxwantdpostagefconclusionsymeansslookingwgrannygdetroitzcanadan8",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/reasoninggtuttreatygprotwgenresxwantdpostagefconclusionsymeansslookingwgrannygdetroitzcanadan8$3.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/WackMeUpJob.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/iiwwallacexsupplementallattemptingmhusbandhmkemissionaprotrhtmllevaluatedkstraintpeoplecawfulx9",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi3",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi3.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi3",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi3.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi30",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi3.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/megaflogoslcherryjconservativeienemiessgenericedpikdeliveryvcharmjminneapolisqozonexsincea22",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/megaflogoslcherryjconservativeienemiessgenericedpikdeliveryvcharmjminneapolisqozonexsincea22$2.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32$2.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32$2.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/philipsrplasticodetailsztelecomdnightforientaldzoningrinspectionsqmarkefarmingvedshdosagef24",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/philipsrplasticodetailsztelecomdnightforientaldzoningrinspectionsqmarkefarmingvedshdosagef24.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32FOR",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/philipsrplasticodetailsztelecomdnightforientaldzoningrinspectionsqmarkefarmingvedshdosagef24.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/tvcomcbeefcshowrconversionvaswdrilldglenlgahimproveyextensionsjmerchandiseaarizonaemastersw2",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi31.smali",
+        "score": 0
+      },
+      {
+        "value": "yrfjerserbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi31SERBRE",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi31.smali",
+        "score": 0
+      },
+      {
+        "value": "MjYwNjoyNjA2OjEwNC4yMS44MC4yNTQ6MTcyLjY3LjE1NS4xNjU6MTg4LjExNC45Ni43OjE4OC4xMTQuOTcuNzoyNjA2OjI2MDY6MTkxLjk2LjE1OS4xNDE6NTVjbHViLjljbHViaS5pbi5uZXQ=",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi31.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi34",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi31.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/halifaxlchannelswdocumentationvhumorxpermalinkrmemomcropsecursortvisitsiwishesbharrisftrainersc7",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/halifaxlchannelswdocumentationvhumorxpermalinkrmemomcropsecursortvisitsiwishesbharrisftrainersc7.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/titaniumkfiberhlicensednwinlbrokexorgrforbwiderhenabledzplanestdylanfheadersiglasgowtnervousq26",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/titaniumkfiberhlicensednwinlbrokexorgrforbwiderhenabledzplanestdylanfheadersiglasgowtnervousq26$MyChrome.smali",
+        "score": 0
+      },
+      {
+        "value": "SDGATHSquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/saladiedmontonmsichnycfconcerningqsynopsisyuscdamateurvbasketsqinteractivefdevelopersdresultingd4$1.smali",
+        "score": 0
+      },
+      {
+        "value": "ghtyjtquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopyg...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/saladiedmontonmsichnycfconcerningqsynopsisyuscdamateurvbasketsqinteractivefdevelopersdresultingd4$1.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32SendMeHome",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32$1.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi34",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi34.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi34scheduleJob",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi34.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32Treger",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32$3.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/discountedsleedsmapptcannonncopyrightqintervalsqwizardvbeautifullymdownloadedjindirectjoptionh18",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/myworker.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32bypass",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/myworker.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32CheckPrims",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/myworker.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/remarkjmedicationnisbncfitsysmithnpalelenhancementballjvoidvxnproductivityrcommunistlblowjobl17",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/myworker.smali",
+        "score": 0
+      },
+      {
+        "value": "/quoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconce...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19$6.smali",
+        "score": 0
+      },
+      {
+        "value": "gooquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygcon...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19$6.smali",
+        "score": 0
+      },
+      {
+        "value": "com/sigquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19$6.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32Auto",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32DisablePlayProtect",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32GlobalEvent",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32Globalnode",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32NeedPaste",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32OFFOK",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32OFK",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32RecorderActive",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32Recording",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32SendGoogleAuth",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32ToPaste",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32lay",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32mRecorder",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32wm",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32SendNotifi",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32getAppNameFromPkgName",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32clickAtPosition",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32clickByText",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32findNodesByText",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32performClick",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32getRootNodeInfo",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32toBase64",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32pasteText",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32sendlog",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32ActivSend",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32blockBack",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/tilljuruguaysextensionigivescaseygconferenceswflushldevelopsiworkshopsvboomytaxfinfectiousl10",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32RD",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32SW",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32ShowActivite",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32click",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32writeFile",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi32.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/encounterojusticetpeoplekbulletinrlivedfocalgallowxclubsigotoqhumanityiicekguardvgalaxykpremiere20",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/encounterojusticetpeoplekbulletinrlivedfocalgallowxclubsigotoqhumanityiicekguardvgalaxykpremiere20.smali",
+        "score": 0
+      },
+      {
+        "value": "goquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/encounterojusticetpeoplekbulletinrlivedfocalgallowxclubsigotoqhumanityiicekguardvgalaxykpremiere20.smali",
+        "score": 0
+      },
+      {
+        "value": "cquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconce...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/encounterojusticetpeoplekbulletinrlivedfocalgallowxclubsigotoqhumanityiicekguardvgalaxykpremiere20.smali",
+        "score": 0
+      },
+      {
+        "value": "//suppquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopyg...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19$5.smali",
+        "score": 0
+      },
+      {
+        "value": "googquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygco...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19$5.smali",
+        "score": 0
+      },
+      {
+        "value": "com/accquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19$5.smali",
+        "score": 0
+      },
+      {
+        "value": "3382quoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygco...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/casinosepainfulscenteredzeverythingcnightmarebpainvbeneficialscacheqpolyphoniczspringsggentlemanl19$5.smali",
+        "score": 0
+      },
+      {
+        "value": "ufe76YYquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33$ta.smali",
+        "score": 0
+      },
+      {
+        "value": "ufe76VCquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33$ta.smali",
+        "score": 0
+      },
+      {
+        "value": "afwlyricsqscreenshotskanimalsdrallyfbelongsrpathologylgracekyugoslaviazcolelrecreationtsurroundingd29",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33$ta.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/puttingtfowchildrenofrontiervmythvyukonklandscapeswtimerattacksviraeeligibilitydimpossiblel27",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33$ta.smali",
+        "score": 0
+      },
+      {
+        "value": "u20abquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33$ta.smali",
+        "score": 0
+      },
+      {
+        "value": "u02bequoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33$ta.smali",
+        "score": 0
+      },
+      {
+        "value": "newsletterswfunctionalehungacutsokinasedthrucimpliesrnecklacedfedywarehouselbattlefielddinstitutiont45",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/metallicdparameterqvampirekinterfacesagenesisomotelskboobwconsiderxgovernmentstintendedyweldingg33$ta.smali",
+        "score": 0
+      },
+      {
+        "value": "enginesiidentifyeexistvgrradministrativeishineqruntimekphilippinesiorganizedgoecddmenkgalewjeanoseeingn105",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/tilljuruguaysextensionigivescaseygconferenceswflushldevelopsiworkshopsvboomytaxfinfectiousl10.smali",
+        "score": 0
+      },
+      {
+        "value": "missouriiorganisedzluckyrversionsdswimmingbespeciallynvoipxreviewingsriskefocaltfederalyfireplaced43",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/tilljuruguaysextensionigivescaseygconferenceswflushldevelopsiworkshopsvboomytaxfinfectiousl10.smali",
+        "score": 0
+      },
+      {
+        "value": "serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi30",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi30.smali",
+        "score": 0
+      },
+      {
+        "value": "ufe76quoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi30.smali",
+        "score": 0
+      },
+      {
+        "value": "Fquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconce...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi30.smali",
+        "score": 0
+      },
+      {
+        "value": "u03b8quoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi30.smali",
+        "score": 0
+      },
+      {
+        "value": "u20abXquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopyg...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/serbiajemissionsqdriveygeneratoraupperkonsfclassicsklensxeveryonenstayingoaddwratesgglenjdisplayedi30.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/forumirequiredjharveyeoutdoorzvcrjnaturegcompletelynintensehdecorativecthongkunityideemede23",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/forumirequiredjharveyeoutdoorzvcrjnaturegcompletelynintensehdecorativecthongkunityideemede23$1.smali",
+        "score": 0
+      },
+      {
+        "value": "GEquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/puttingtfowchildrenofrontiervmythvyukonklandscapeswtimerattacksviraeeligibilitydimpossiblel27.smali",
+        "score": 0
+      },
+      {
+        "value": "upquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygconc...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/puttingtfowchildrenofrontiervmythvyukonklandscapeswtimerattacksviraeeligibilitydimpossiblel27.smali",
+        "score": 0
+      },
+      {
+        "value": "/mnquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopygcon...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/puttingtfowchildrenofrontiervmythvyukonklandscapeswtimerattacksviraeeligibilitydimpossiblel27.smali",
+        "score": 0
+      },
+      {
+        "value": "Lapp/everspy/bluescuploadaenglishwwishesnproperlybinsertionfcybersatlasdcapstcharmkstatisticsmqldmbureaut21",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/bluescuploadaenglishwwishesnproperlybinsertionfcybersatlasdcapstcharmkstatisticsmqldmbureaut21.smali",
+        "score": 0
+      },
+      {
+        "value": "androidquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/hiredybroughtyassumesnpearltfrenchgenglandznovembermobligationveaglezarabicdsurvivorsswellh5.smali",
+        "score": 0
+      },
+      {
+        "value": "u02beSBquoteeboxesgcustomersjfiledmbudgetsjbleedingqhartfordhlevyrinsteadneternalxremovablejhighwaysnmbhprotectiveaporscheeoutcomesnactivatedssyndicationasourceslcontestswshowhlivestockvbiblehnycdcopy...",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/hiredybroughtyassumesnpearltfrenchgenglandznovembermobligationveaglezarabicdsurvivorsswellh5.smali",
+        "score": 0
+      },
+      {
+        "value": "istxlegislativeqdifferencentiledsustainablemsirlattacksmguatemalarbugslrestaurantscbsqlogmbrasszbiolc94",
+        "category": "base64_blob",
+        "location": "smali/app/everspy/hiredybroughtyassumesnpearltfrenchgenglandznovembermobligationveaglezarabicdsurvivorsswellh5.smali",
+        "score": 0
+      }
+    ],
+    "native_libraries": [],
+    "static_score": 100,
+    "findings_summary": [
+      "[WARN] ADB backup enabled (allowBackup=true)",
+      "[HIGH] 16 dangerous permission(s) declared",
+      "[HIGH] RAT-like permission combo detected (SMS+phone+camera+mic+contacts+location)",
+      "[HIGH] 2 exported component(s) with no permission",
+      "[HIGH] Suspicious TLD in package name: .ru",
+      "[HIGH] Suspicious keyword in package name: 'spy'",
+      "[HIGH] 2 component name(s) appear obfuscated (>50 chars)"
+    ]
+  },
+  "dynamic": null,
+  "total_score": 100,
+  "verdict": "MALICIOUS"
+}
