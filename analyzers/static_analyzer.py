@@ -128,6 +128,40 @@ IGNORED_PACKAGE_PREFIXES = [
     "javax.",
 ]
 
+# TLDs et mots-clés suspects dans le package name
+SUSPICIOUS_TLDS = {".ru", ".xyz", ".top", ".tk", ".pw", ".cc", ".su", ".to"}
+SUSPICIOUS_PACKAGE_KEYWORDS = {"spy", "rat", "hack", "monitor", "stalker", "track", "stealer", "keylog"}
+
+# Combinaison de groupes caractéristique d'un RAT
+RAT_PERMISSION_COMBO = {"sms", "phone", "camera", "microphone", "contacts", "location"}
+
+
+def _package_name_score(package_name: str) -> tuple[int, list[str]]:
+    score = 0
+    findings = []
+    lower = package_name.lower()
+    for tld in SUSPICIOUS_TLDS:
+        if tld in lower:
+            score += 10
+            findings.append(f"[HIGH] Suspicious TLD in package name: {tld}")
+            break
+    for keyword in SUSPICIOUS_PACKAGE_KEYWORDS:
+        if keyword in lower:
+            score += 10
+            findings.append(f"[HIGH] Suspicious keyword in package name: '{keyword}'")
+            break
+    return score, findings
+
+
+def _obfuscation_score(components: list) -> tuple[int, list[str]]:
+    score = 0
+    findings = []
+    obfuscated = [c for c in components if len(c.name.split(".")[-1]) > 50]
+    if obfuscated:
+        score += 10
+        findings.append(f"[HIGH] {len(obfuscated)} component name(s) appear obfuscated (>50 chars)")
+    return score, findings
+
 
 class StaticAnalyzer:
 
@@ -173,6 +207,7 @@ class StaticAnalyzer:
             progress.advance(task)
 
         score = self._compute_score(
+            manifest_data["package"],
             manifest_data["permissions"],
             manifest_data["components"],
             strings
@@ -370,10 +405,12 @@ class StaticAnalyzer:
 
     def _compute_score(
         self,
+        package_name: str,
         permissions: list[Permission],
         components: list[ExportedComponent],
         strings: list[SuspiciousString]
     ) -> int:
+        # Permissions — groupées, plafond relevé à 60
         found_groups: set[str] = set()
         for p in permissions:
             group = _PERM_TO_GROUP.get(p.name)
@@ -381,9 +418,15 @@ class StaticAnalyzer:
                 found_groups.add(group)
         permission_score = min(
             sum(PERMISSION_GROUP_SCORE.get(g, 0) for g in found_groups),
-            40
+            60
         )
 
+        # Bonus RAT — combinaison de groupes caractéristique
+        rat_bonus = 0
+        if RAT_PERMISSION_COMBO.issubset(found_groups):
+            rat_bonus = 15
+
+        # Components exportés
         component_types: set[str] = set()
         for c in components:
             if not c.has_permission:
@@ -393,6 +436,7 @@ class StaticAnalyzer:
             25
         )
 
+        # Strings suspectes
         string_categories: set[str] = set()
         for s in strings:
             string_categories.add(s.category)
@@ -401,7 +445,14 @@ class StaticAnalyzer:
             35
         )
 
-        return min(permission_score + component_score + string_score, 100)
+        # Package name
+        pkg_score, _ = _package_name_score(package_name)
+
+        # Obfuscation
+        obf_score, _ = _obfuscation_score(components)
+
+        total = permission_score + rat_bonus + component_score + string_score + pkg_score + obf_score
+        return min(total, 100)
 
     def _generate_findings(
         self,
@@ -420,9 +471,26 @@ class StaticAnalyzer:
         if dangerous_perms:
             findings.append(f"[HIGH] {len(dangerous_perms)} dangerous permission(s) declared")
 
+        # Bonus RAT
+        found_groups: set[str] = set()
+        for p in manifest_data["permissions"]:
+            group = _PERM_TO_GROUP.get(p.name)
+            if group:
+                found_groups.add(group)
+        if RAT_PERMISSION_COMBO.issubset(found_groups):
+            findings.append("[HIGH] RAT-like permission combo detected (SMS+phone+camera+mic+contacts+location)")
+
         exported_no_perm = [c for c in manifest_data["components"] if not c.has_permission]
         if exported_no_perm:
             findings.append(f"[HIGH] {len(exported_no_perm)} exported component(s) with no permission")
+
+        # Package name
+        _, pkg_findings = _package_name_score(manifest_data["package"])
+        findings.extend(pkg_findings)
+
+        # Obfuscation
+        _, obf_findings = _obfuscation_score(manifest_data["components"])
+        findings.extend(obf_findings)
 
         scored_strings = [s for s in strings if s.score > 0]
         if scored_strings:
